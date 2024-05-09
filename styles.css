@@ -2,3 +2,12 @@ body {
     background-color: #222;
     color: #fff;
 }
+
+a {
+    color: yellow;
+    text-decoration: none; /* Optional: Removes underline */
+}
+
+a:hover {
+    color: orange; /* Change color on hover if desired */
+}
