@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GIFs</title>
     <link rel="stylesheet" href="styles.css"> <!-- Dark mode styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1f1f1f;
+            color: #ffffff;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #ffd700;
+        }
+        a {
+            color: #ffd700;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #ffeb3b;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,14 +33,12 @@
     <main>
         <section>
             <h2>GIFs</h2>
-            <p>These are the animations of the simulations of how each approach is performing for different combinations of agents and tasks.
-                
-                Since Min cost assignment guarantees the best cost, we use it as a benchmark to compare other approaches and take note of the % difference.</p>
-            <p><a href="gifs/cost_anim.gif" style="color: yellow;">Cost Animation</a></p>
-            <p>Since Round Robin guarantees EF1 allocation, we use it as the best valuation benchmark to compare other approaches and take note of the % difference.</p>
-            <p><a href="gifs/value_anim.gif" style="color: yellow;">Value Animation</a></p>
+            <p>These animations depict simulations showcasing the performance of various approaches for different combinations of agents and tasks.</p>
+            <p>We utilize <em>Min cost assignment</em> as a benchmark to assess cost efficiency, noting the percentage difference.</p>
+            <p><a href="gifs/cost_anim.gif">Cost Animation</a></p>
+            <p>Round Robin ensures <em>EF1 allocation</em>, serving as the optimal valuation benchmark for comparing other approaches and recording the percentage difference.</p>
+            <p><a href="gifs/value_anim.gif">Value Animation</a></p>
         </section>
     </main>
 </body>
 </html>
-
