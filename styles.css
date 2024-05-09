@@ -3,8 +3,13 @@ body {
     color: #fff;
 }
 
-a {
+a:link {
     color: yellow;
+    text-decoration: none; /* Optional: Removes underline */
+}
+
+a:visited {
+    color: rgb(165, 165, 28);
     text-decoration: none; /* Optional: Removes underline */
 }
 
